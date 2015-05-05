@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_xy8VkPDrEeSn8a0p7_xHow" type="Henshin" name="university_key.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ZQlkoPDsEeSn8a0p7_xHow" type="2001" fontName="Ubuntu" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZQmLsPDsEeSn8a0p7_xHow" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZQmLsfDsEeSn8a0p7_xHow" type="7001"/>
+    <element xmi:type="henshin:Rule" href="university_key.henshin#_ZQk9kPDsEeSn8a0p7_xHow"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZQlkofDsEeSn8a0p7_xHow" x="119" y="120" width="524" height="344"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xy8VkfDrEeSn8a0p7_xHow"/>
+  <element xmi:type="henshin:Module" href="university_key.henshin#_xy4rMPDrEeSn8a0p7_xHow"/>
+</notation:Diagram>

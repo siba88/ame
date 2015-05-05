@@ -1,0 +1,18 @@
+package at.ac.tuwien.big.momot.examples.university.key;
+
+public class UniversityKeyOrchestration {
+	
+private static final String MODEL_EXTENSION = ".xmi";
+	
+	private static final String RULES = "university_key.henshin";
+	private static final String MODEL_DIRECTORY = "model/";
+	private static final String OUTPUT_DIRECTORY = "output/";
+
+	private static final String RULE_CHANGESTUDENTID_ID = "changeStudentID.id";
+	private static final String RULE_CHANGESTUDENTID_NEWID = "changeStudentID.newID";
+	
+	private static final int SEARCH_POPULATION = 100;
+	private static final int SEARCH_ITERATIONS = 200;
+	private static final int SEARCH_SOLUTIONLENGTH = 10;
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="university" nsPrefix="uni">
+  <eClassifiers xsi:type="ecore:EClass" name="University">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courses" lowerBound="1"
+        upperBound="-1" eType="#//Course" eOpposite="#//Course/universities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="professors" lowerBound="1"
+        upperBound="-1" eType="#//Professor" eOpposite="#//Professor/universities"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Course">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="universities" lowerBound="1"
+        upperBound="-1" eType="#//University" eOpposite="#//University/courses"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="professor" lowerBound="1"
+        upperBound="4" eType="#//Professor" eOpposite="#//Professor/course"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Professor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="universities" lowerBound="1"
+        upperBound="3" eType="#//University" eOpposite="#//University/professors"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="course" upperBound="5"
+        eType="#//Course" eOpposite="#//Course/professor"/>
+  </eClassifiers>
+</ecore:EPackage>

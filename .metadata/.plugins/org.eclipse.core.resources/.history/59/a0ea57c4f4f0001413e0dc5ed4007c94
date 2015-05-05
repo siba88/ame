@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_xy4rMPDrEeSn8a0p7_xHow" name="">
+  <imports href="model/university.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_5x1M0PDtEeSn8a0p7_xHow" name="changeStudentID">
+    <parameters xmi:id="_-Ya9cPDtEeSn8a0p7_xHow" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_-Ya9cfDtEeSn8a0p7_xHow" name="newID">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_5x4QIPDtEeSn8a0p7_xHow" name="Lhs">
+      <nodes xmi:id="_ADKoAPDuEeSn8a0p7_xHow">
+        <type href="model/university.ecore#//University"/>
+      </nodes>
+      <formula xsi:type="henshin:Not" xmi:id="_d-kEwPDuEeSn8a0p7_xHow">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_d-kEwfDuEeSn8a0p7_xHow">
+          <conclusion xmi:id="_d-kEwvDuEeSn8a0p7_xHow">
+            <nodes xmi:id="_d-kEw_DuEeSn8a0p7_xHow" outgoing="_gcgt4PDuEeSn8a0p7_xHow">
+              <type href="model/university.ecore#//University"/>
+            </nodes>
+            <nodes xmi:id="_d-jdsPDuEeSn8a0p7_xHow" incoming="_gcgt4PDuEeSn8a0p7_xHow">
+              <type href="model/university.ecore#//Student"/>
+              <attributes xmi:id="_e4t_4PDuEeSn8a0p7_xHow" value="id">
+                <type href="model/university.ecore#//Student/id"/>
+              </attributes>
+            </nodes>
+            <edges xmi:id="_gcgt4PDuEeSn8a0p7_xHow" source="_d-kEw_DuEeSn8a0p7_xHow" target="_d-jdsPDuEeSn8a0p7_xHow">
+              <type href="model/university.ecore#//University/students"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_d-kExPDuEeSn8a0p7_xHow" origin="_ADKoAPDuEeSn8a0p7_xHow" image="_d-kEw_DuEeSn8a0p7_xHow"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_5x4QIfDtEeSn8a0p7_xHow" name="Rhs">
+      <nodes xmi:id="_ADKoAfDuEeSn8a0p7_xHow" outgoing="_W2AGoPDuEeSn8a0p7_xHow">
+        <type href="model/university.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_Rbe-sPDuEeSn8a0p7_xHow" incoming="_W2AGoPDuEeSn8a0p7_xHow">
+        <type href="model/university.ecore#//Student"/>
+        <attributes xmi:id="_TbQeEPDuEeSn8a0p7_xHow" value="newID">
+          <type href="model/university.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_W2AGoPDuEeSn8a0p7_xHow" source="_ADKoAfDuEeSn8a0p7_xHow" target="_Rbe-sPDuEeSn8a0p7_xHow">
+        <type href="model/university.ecore#//University/students"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_ADLPEPDuEeSn8a0p7_xHow" origin="_ADKoAPDuEeSn8a0p7_xHow" image="_ADKoAfDuEeSn8a0p7_xHow"/>
+  </units>
+</henshin:Module>

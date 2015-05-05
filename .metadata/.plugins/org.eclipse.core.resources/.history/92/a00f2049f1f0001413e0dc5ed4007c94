@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_xy4rMPDrEeSn8a0p7_xHow" name="">
+  <units xsi:type="henshin:Rule" xmi:id="_ZQk9kPDsEeSn8a0p7_xHow" name="changeStudentID">
+    <parameters xmi:id="_jV-gQPDsEeSn8a0p7_xHow" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_jV_HUPDsEeSn8a0p7_xHow" name="newID">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_ZQoA4PDsEeSn8a0p7_xHow" name="Lhs"/>
+    <rhs xmi:id="_ZQoA4fDsEeSn8a0p7_xHow" name="Rhs"/>
+  </units>
+</henshin:Module>
