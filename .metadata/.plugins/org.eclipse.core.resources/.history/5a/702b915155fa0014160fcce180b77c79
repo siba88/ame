@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: at.ac.tuwien.big.momot.examples.university.unique
+Bundle-SymbolicName: at.ac.tuwien.big.momot.examples.university.unique; singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Export-Package: at.ac.tuwien.big.momot.examples.university.unique
+Require-Bundle: at.ac.tuwien.big.momot,
+ at.ac.tuwien.big.moea
+Require-Bundle: org.eclipse.emf.ecore

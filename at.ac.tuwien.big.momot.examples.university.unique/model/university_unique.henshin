@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_ZRoLQPpUEeSt-c5ThCaMmg">
+  <imports href="university_unique.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_a1a5QPpUEeSt-c5ThCaMmg" name="changeStudentMnr">
+    <parameters xmi:id="_ilIW8PpUEeSt-c5ThCaMmg" name="newMnr">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_a1g_4PpUEeSt-c5ThCaMmg" name="Lhs">
+      <nodes xmi:id="_ja9ywPpUEeSt-c5ThCaMmg" outgoing="_m2xLQPpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_lU2skPpUEeSt-c5ThCaMmg" incoming="_m2xLQPpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//Student"/>
+        <attributes xmi:id="_oHAEEPpUEeSt-c5ThCaMmg" value="newMnr">
+          <type href="university_unique.ecore#//Student/mnr"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_m2xLQPpUEeSt-c5ThCaMmg" source="_ja9ywPpUEeSt-c5ThCaMmg" target="_lU2skPpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//University/students"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_a1hm8PpUEeSt-c5ThCaMmg" name="Rhs">
+      <nodes xmi:id="_ja9ywfpUEeSt-c5ThCaMmg" outgoing="_m2xLQfpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_lU3ToPpUEeSt-c5ThCaMmg" incoming="_m2xLQfpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//Student"/>
+        <attributes xmi:id="_oHAEEfpUEeSt-c5ThCaMmg" value="newMnr">
+          <type href="university_unique.ecore#//Student/mnr"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_m2xLQfpUEeSt-c5ThCaMmg" source="_ja9ywfpUEeSt-c5ThCaMmg" target="_lU3ToPpUEeSt-c5ThCaMmg">
+        <type href="university_unique.ecore#//University/students"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_ja9ywvpUEeSt-c5ThCaMmg" origin="_ja9ywPpUEeSt-c5ThCaMmg" image="_ja9ywfpUEeSt-c5ThCaMmg"/>
+    <mappings xmi:id="_lU3TofpUEeSt-c5ThCaMmg" origin="_lU2skPpUEeSt-c5ThCaMmg" image="_lU3ToPpUEeSt-c5ThCaMmg"/>
+  </units>
+</henshin:Module>
