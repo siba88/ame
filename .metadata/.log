@@ -2584,3 +2584,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.ui 4 4 2015-05-15 16:14:52.896
 !MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 16:55:55.988
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 17:06:34.354
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
