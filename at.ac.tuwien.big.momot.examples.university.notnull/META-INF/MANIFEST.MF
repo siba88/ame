@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NotNullValues
+Bundle-SymbolicName: at.ac.tuwien.big.momot.examples.university.notnull;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Require-Bundle: at.ac.tuwien.big.momot,
+ at.ac.tuwien.big.moea
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.apache.commons.io

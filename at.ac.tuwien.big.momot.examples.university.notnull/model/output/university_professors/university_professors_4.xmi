@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<university:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:university="www.tuwien.com" xsi:schemaLocation="www.tuwien.com university.ecore" name="TUWIEN">
+  <professors name="XXX" courses="YYY"/>
+  <professors name="Q"/>
+  <courses name="YYY" professors="//@professors.0"/>
+  <courses name="A"/>
+  <students MNR="0" uni="TUWIEN"/>
+  <students MNR="1" uni="TUWIEN"/>
+</university:University>

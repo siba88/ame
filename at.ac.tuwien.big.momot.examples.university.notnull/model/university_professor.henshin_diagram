@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_4InJgPozEeSnbNTWwiII2Q" type="Henshin" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_4KCs4vozEeSnbNTWwiII2Q" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4KCs5PozEeSnbNTWwiII2Q" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4KCs5fozEeSnbNTWwiII2Q" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_4KIzgPozEeSnbNTWwiII2Q" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzgvozEeSnbNTWwiII2Q" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzg_ozEeSnbNTWwiII2Q" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzhPozEeSnbNTWwiII2Q" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_4KIzhfozEeSnbNTWwiII2Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_4KIzhvozEeSnbNTWwiII2Q"/>
+        </children>
+        <element xmi:type="henshin:Node" href="university_professor.henshin#_kojvUPHlEeSkT5Mo_ocSPw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KIzgfozEeSnbNTWwiII2Q" x="24" y="32"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_4KIzh_ozEeSnbNTWwiII2Q" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzifozEeSnbNTWwiII2Q" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzivozEeSnbNTWwiII2Q" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_4KIzi_ozEeSnbNTWwiII2Q" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_4KIzjPozEeSnbNTWwiII2Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_4KIzjfozEeSnbNTWwiII2Q"/>
+        </children>
+        <element xmi:type="henshin:Node" href="university_professor.henshin#_o0K0IPHlEeSkT5Mo_ocSPw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KIziPozEeSnbNTWwiII2Q" x="326" y="32"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="university_professor.henshin#_bUhYIPHlEeSkT5Mo_ocSPw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KCs4_ozEeSnbNTWwiII2Q" x="18" y="13" width="484"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tU-LUPo0EeSnbNTWwiII2Q" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ICPfM_o1EeSnbNTWwiII2Q" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ICPfNPo1EeSnbNTWwiII2Q" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tU-LUvo0EeSnbNTWwiII2Q" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tU-LU_o0EeSnbNTWwiII2Q" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_dcXXQPpdEeSlw4CoXeWo-A" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_dcX-UPpdEeSlw4CoXeWo-A" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_dcX-UfpdEeSlw4CoXeWo-A" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_dcYlYPpdEeSlw4CoXeWo-A" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_fQ5P8PpdEeSlw4CoXeWo-A" type="3002">
+            <element xmi:type="henshin:Attribute" href="university_professor.henshin#_fQ2MoPpdEeSlw4CoXeWo-A"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fQ5P8fpdEeSlw4CoXeWo-A"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_dcYlYfpdEeSlw4CoXeWo-A"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_dcYlYvpdEeSlw4CoXeWo-A"/>
+        </children>
+        <element xmi:type="henshin:Node" href="university_professor.henshin#_dcR3sPpdEeSlw4CoXeWo-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dcXXQfpdEeSlw4CoXeWo-A" x="43" y="32" width="343" height="91"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SDrJ0PrjEeSBzY_NYk9xOg" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SDrw4PrjEeSBzY_NYk9xOg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SDrw4frjEeSBzY_NYk9xOg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SDrw4vrjEeSBzY_NYk9xOg" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SDrw4_rjEeSBzY_NYk9xOg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SDrw5PrjEeSBzY_NYk9xOg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="university_professor.henshin#_SDmRUPrjEeSBzY_NYk9xOg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SDrJ0frjEeSBzY_NYk9xOg" x="773" y="44"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_TgiwcPrjEeSBzY_NYk9xOg" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_TgjXgPrjEeSBzY_NYk9xOg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_TgjXgfrjEeSBzY_NYk9xOg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_TgjXgvrjEeSBzY_NYk9xOg" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TgjXg_rjEeSBzY_NYk9xOg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TgjXhPrjEeSBzY_NYk9xOg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="university_professor.henshin#_Tgg7QPrjEeSBzY_NYk9xOg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TgiwcfrjEeSBzY_NYk9xOg" x="625" y="202"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="university_professor.henshin#_tU4EsPo0EeSnbNTWwiII2Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tU-LUfo0EeSnbNTWwiII2Q" x="147" y="252" width="1009" height="305"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_4InJgfozEeSnbNTWwiII2Q"/>
+  <element xmi:type="henshin:Module" href="university_professor.henshin#_a9afsPHlEeSkT5Mo_ocSPw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_hWSg4vo2EeSnbNTWwiII2Q" type="4001" source="_4KIzgPozEeSnbNTWwiII2Q" target="_4KIzh_ozEeSnbNTWwiII2Q">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hWSg5fo2EeSnbNTWwiII2Q" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hWSg5vo2EeSnbNTWwiII2Q" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hWSg5_o2EeSnbNTWwiII2Q" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hWSg6Po2EeSnbNTWwiII2Q" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hWSg4_o2EeSnbNTWwiII2Q" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="university_professor.henshin#_Co_dEPHmEeSkT5Mo_ocSPw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hWSg5Po2EeSnbNTWwiII2Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SrA2oPrjEeSBzY_NYk9xOg" type="4001" source="_SDrJ0PrjEeSBzY_NYk9xOg" target="_dcXXQPpdEeSlw4CoXeWo-A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SrBdsPrjEeSBzY_NYk9xOg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SrBdsfrjEeSBzY_NYk9xOg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SrBdsvrjEeSBzY_NYk9xOg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SrBds_rjEeSBzY_NYk9xOg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SrA2ofrjEeSBzY_NYk9xOg" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="university_professor.henshin#_Sq9zUPrjEeSBzY_NYk9xOg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SrA2ovrjEeSBzY_NYk9xOg" points="[-30, 1, 404, -16]$[-417, 17, 17, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SrFvIPrjEeSBzY_NYk9xOg" id="(0.9504373177842566,0.5494505494505495)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UK7xQPrjEeSBzY_NYk9xOg" type="4001" source="_SDrJ0PrjEeSBzY_NYk9xOg" target="_TgiwcPrjEeSBzY_NYk9xOg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UK8YUvrjEeSBzY_NYk9xOg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UK8YU_rjEeSBzY_NYk9xOg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UK8YVPrjEeSBzY_NYk9xOg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UK8YVfrjEeSBzY_NYk9xOg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UK8YUPrjEeSBzY_NYk9xOg" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="university_professor.henshin#_UK7KMPrjEeSBzY_NYk9xOg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UK8YUfrjEeSBzY_NYk9xOg" points="[-7, 7, 117, -125]$[-117, 123, 7, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UK9mcPrjEeSBzY_NYk9xOg" id="(0.2786885245901639,0.8333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UK9mcfrjEeSBzY_NYk9xOg" id="(0.6721311475409836,0.21428571428571427)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UqBhAPrjEeSBzY_NYk9xOg" type="4001" source="_dcXXQPpdEeSlw4CoXeWo-A" target="_TgiwcPrjEeSBzY_NYk9xOg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UqBhA_rjEeSBzY_NYk9xOg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UqBhBPrjEeSBzY_NYk9xOg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UqBhBfrjEeSBzY_NYk9xOg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UqBhBvrjEeSBzY_NYk9xOg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UqBhAfrjEeSBzY_NYk9xOg" fontName="Segoe UI"/>
+    <element xmi:type="henshin:Edge" href="university_professor.henshin#_Up_EwPrjEeSBzY_NYk9xOg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UqBhAvrjEeSBzY_NYk9xOg" points="[54, 20, -271, -100]$[321, 99, -4, -21]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UqFycPrjEeSBzY_NYk9xOg" id="(0.8367346938775511,0.7802197802197802)"/>
+  </edges>
+</notation:Diagram>
