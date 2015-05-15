@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uni:University
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:uni="http://www.big.tuwien.ac.at/ame/university"
+    xsi:schemaLocation="http://www.big.tuwien.ac.at/ame/university university_ocl.ecore"
+    name="TU Wien">
+  <students
+      id="1"
+      mnr="0727895"/>
+  <students
+      id="2"
+      mnr="0728136"/>
+  <students
+      id="3"
+      mnr="0727940"/>
+  <students
+      id="4"
+      mnr="17"/>
+  <students
+      id="5"
+      mnr="071824"/>
+</uni:University>

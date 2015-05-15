@@ -2590,3 +2590,131 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.ui 4 4 2015-05-15 17:06:34.354
 !MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 19:53:22.320
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 19:53:23.368
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 19:58:47.452
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 20:00:01.906
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 20:07:19.851
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 20:09:29.707
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.emf.validation 2 80 2015-05-15 20:13:28.288
+!MESSAGE The constraint "org.eclipse.gmf.runtime.emf.core.ResourceFixup" is disabled.  It will not be evaluated.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gmf.runtime.emf.core.internal.validation.ProxiesResolveConstraint.validate(ProxiesResolveConstraint.java:85)
+	at org.eclipse.emf.validation.internal.util.JavaConstraintParser$ConstraintAdapter.validate(JavaConstraintParser.java:80)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.evaluateConstraints(AbstractValidator.java:241)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:264)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:211)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.doValidate(BatchValidator.java:149)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.validate(AbstractValidator.java:147)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.validate(AbstractValidator.java:126)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:1)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.validate(ValidateAction.java:159)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.access$0(ValidateAction.java:148)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction$2.run(ValidateAction.java:125)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider$1.run(HenshinValidationProvider.java:44)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider.runWithConstraints(HenshinValidationProvider.java:57)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.runValidation(ValidateAction.java:122)
+	at org.eclipse.emf.henshin.diagram.part.ValidateScheduler$ValidateJob.run(ValidateScheduler.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.emf.validation 2 80 2015-05-15 20:13:28.299
+!MESSAGE The constraint "org.eclipse.gmf.runtime.emf.core.IdFixup" is disabled.  It will not be evaluated.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gmf.runtime.emf.core.internal.validation.ProxiesResolveConstraint.validate(ProxiesResolveConstraint.java:85)
+	at org.eclipse.emf.validation.internal.util.JavaConstraintParser$ConstraintAdapter.validate(JavaConstraintParser.java:80)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.evaluateConstraints(AbstractValidator.java:241)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:264)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:211)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.doValidate(BatchValidator.java:149)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.validate(AbstractValidator.java:147)
+	at org.eclipse.emf.validation.internal.service.AbstractValidator.validate(AbstractValidator.java:126)
+	at org.eclipse.emf.validation.internal.service.BatchValidator.validate(BatchValidator.java:1)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.validate(ValidateAction.java:159)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.access$0(ValidateAction.java:148)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction$2.run(ValidateAction.java:125)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider$1.run(HenshinValidationProvider.java:44)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider.runWithConstraints(HenshinValidationProvider.java:57)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.runValidation(ValidateAction.java:122)
+	at org.eclipse.emf.henshin.diagram.part.ValidateScheduler$ValidateJob.run(ValidateScheduler.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-05-15 20:13:28.336
+!MESSAGE An internal error occurred during: "Henshin Validation".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.createMarkers(ValidateAction.java:179)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.validate(ValidateAction.java:160)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.access$0(ValidateAction.java:148)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction$2.run(ValidateAction.java:125)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider$1.run(HenshinValidationProvider.java:44)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider.runWithConstraints(HenshinValidationProvider.java:57)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.runValidation(ValidateAction.java:122)
+	at org.eclipse.emf.henshin.diagram.part.ValidateScheduler$ValidateJob.run(ValidateScheduler.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 20:14:00.397
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.diagram' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.diagram.InitDiagramAction
+
+!ENTRY org.eclipse.ui 4 4 2015-05-15 20:20:31.284
+!MESSAGE Plug-in 'org.eclipse.emf.henshin.interpreter.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.emf.henshin.menu' is invalid): org.eclipse.emf.henshin.interpreter.ui.createDynamicInstance
+
+!ENTRY org.eclipse.emf.henshin.diagram 4 0 2015-05-15 20:22:11.853
+!MESSAGE Validation failed
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.draw2d.DeferredUpdateManager.sendUpdateRequest(DeferredUpdateManager.java:258)
+	at org.eclipse.draw2d.DeferredUpdateManager.queueWork(DeferredUpdateManager.java:244)
+	at org.eclipse.draw2d.DeferredUpdateManager.addDirtyRegion(DeferredUpdateManager.java:120)
+	at org.eclipse.draw2d.Figure.repaint(Figure.java:1420)
+	at org.eclipse.draw2d.Figure.erase(Figure.java:327)
+	at org.eclipse.draw2d.Figure.remove(Figure.java:1272)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeChildVisual(AbstractGraphicalEditPart.java:792)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:881)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.ui.palette.editparts.PaletteEditPart.propertyChange(PaletteEditPart.java:341)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:335)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:327)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:263)
+	at org.eclipse.gef.palette.PaletteContainer.remove(PaletteContainer.java:224)
+	at org.eclipse.emf.henshin.diagram.part.HenshinPaletteUpdater.refresh(HenshinPaletteUpdater.java:68)
+	at org.eclipse.emf.henshin.diagram.part.HenshinPaletteUpdater$1.notifyChanged(HenshinPaletteUpdater.java:117)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.ecore.util.EcoreEList.resolve(EcoreEList.java:186)
+	at org.eclipse.emf.ecore.util.EObjectResolvingEList.resolve(EObjectResolvingEList.java:60)
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:348)
+	at org.eclipse.emf.ecore.util.EContentsEList$FeatureIteratorImpl.hasNext(EContentsEList.java:471)
+	at org.eclipse.emf.ecore.util.EObjectValidator.validate_EveryProxyResolves(EObjectValidator.java:745)
+	at org.eclipse.emf.ecore.util.EObjectValidator.validate_EveryDefaultConstraint(EObjectValidator.java:351)
+	at org.eclipse.emf.henshin.model.util.HenshinValidator.validateModule(HenshinValidator.java:541)
+	at org.eclipse.emf.henshin.model.util.HenshinValidator.validate(HenshinValidator.java:120)
+	at org.eclipse.emf.ecore.util.EObjectValidator.validate(EObjectValidator.java:324)
+	at org.eclipse.emf.ecore.util.Diagnostician.doValidate(Diagnostician.java:171)
+	at org.eclipse.emf.ecore.util.Diagnostician.validate(Diagnostician.java:158)
+	at org.eclipse.emf.ecore.util.Diagnostician.validate(Diagnostician.java:137)
+	at org.eclipse.emf.ecore.util.Diagnostician.validate(Diagnostician.java:108)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.runEMFValidator(ValidateAction.java:140)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.validate(ValidateAction.java:153)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.access$0(ValidateAction.java:148)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction$2.run(ValidateAction.java:125)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider$1.run(HenshinValidationProvider.java:44)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.henshin.diagram.providers.HenshinValidationProvider.runWithConstraints(HenshinValidationProvider.java:52)
+	at org.eclipse.emf.henshin.diagram.part.ValidateAction.runValidation(ValidateAction.java:122)
+	at org.eclipse.emf.henshin.diagram.part.ValidateScheduler$ValidateJob.run(ValidateScheduler.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

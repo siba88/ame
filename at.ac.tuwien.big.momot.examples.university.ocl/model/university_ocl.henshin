@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_lOkHMPssEeSk9JI_CU85gw">
+  <imports href="university_ocl.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_mCmzQPssEeSk9JI_CU85gw" name="changeMnr">
+    <parameters xmi:id="_pgwVIPssEeSk9JI_CU85gw" name="newMnr">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_mCtg8PssEeSk9JI_CU85gw" name="Lhs">
+      <nodes xmi:id="_quJ8YPssEeSk9JI_CU85gw" outgoing="_BiOxIPstEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_rjxVwPssEeSk9JI_CU85gw" incoming="_BiOxIPstEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//Student"/>
+        <attributes xmi:id="_DwVAYPstEeSk9JI_CU85gw" value="newMnr">
+          <type href="university_ocl.ecore#//Student/mnr"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_BiOxIPstEeSk9JI_CU85gw" source="_quJ8YPssEeSk9JI_CU85gw" target="_rjxVwPssEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//University/students"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_mCtg8fssEeSk9JI_CU85gw" name="Rhs">
+      <nodes xmi:id="_quJ8YfssEeSk9JI_CU85gw" outgoing="_BiOxIfstEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_rjxVwfssEeSk9JI_CU85gw" incoming="_BiOxIfstEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//Student"/>
+        <attributes xmi:id="_DwVAYfstEeSk9JI_CU85gw" value="newMnr">
+          <type href="university_ocl.ecore#//Student/mnr"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_BiOxIfstEeSk9JI_CU85gw" source="_quJ8YfssEeSk9JI_CU85gw" target="_rjxVwfssEeSk9JI_CU85gw">
+        <type href="university_ocl.ecore#//University/students"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_quKjcPssEeSk9JI_CU85gw" origin="_quJ8YPssEeSk9JI_CU85gw" image="_quJ8YfssEeSk9JI_CU85gw"/>
+    <mappings xmi:id="_rjxVwvssEeSk9JI_CU85gw" origin="_rjxVwPssEeSk9JI_CU85gw" image="_rjxVwfssEeSk9JI_CU85gw"/>
+  </units>
+</henshin:Module>
