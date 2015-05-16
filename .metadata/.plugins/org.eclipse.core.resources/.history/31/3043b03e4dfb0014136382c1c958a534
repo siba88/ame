@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_3195oPtMEeSk9JI_CU85gw">
+  <imports href="university_multiplicityLower.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_I9sPkPtNEeSk9JI_CU85gw" name="createStudent">
+    <parameters xmi:id="_I9sPkftNEeSk9JI_CU85gw" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <lhs xmi:id="_I9sPkvtNEeSk9JI_CU85gw" name="Lhs">
+      <nodes xmi:id="_I9sPk_tNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University"/>
+      </nodes>
+      <formula xsi:type="henshin:Not" xmi:id="_I9sPlPtNEeSk9JI_CU85gw">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_I9sPlftNEeSk9JI_CU85gw">
+          <conclusion xmi:id="_I9sPlvtNEeSk9JI_CU85gw">
+            <nodes xmi:id="_I9sPl_tNEeSk9JI_CU85gw">
+              <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University"/>
+            </nodes>
+            <nodes xmi:id="_I9sPmPtNEeSk9JI_CU85gw">
+              <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student"/>
+              <attributes xmi:id="_I9sPmftNEeSk9JI_CU85gw" value="id">
+                <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student/id"/>
+              </attributes>
+            </nodes>
+          </conclusion>
+          <mappings xmi:id="_I9sPm_tNEeSk9JI_CU85gw" origin="_I9sPk_tNEeSk9JI_CU85gw" image="_I9sPl_tNEeSk9JI_CU85gw"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_I9sPnPtNEeSk9JI_CU85gw" name="Rhs">
+      <nodes xmi:id="_I9sPnftNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_I9sPnvtNEeSk9JI_CU85gw" description="">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student"/>
+        <attributes xmi:id="_I9sPn_tNEeSk9JI_CU85gw" value="id">
+          <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_I9sPoftNEeSk9JI_CU85gw" origin="_I9sPk_tNEeSk9JI_CU85gw" image="_I9sPnftNEeSk9JI_CU85gw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_I9s2oPtNEeSk9JI_CU85gw" name="assignStudent">
+    <parameters xmi:id="_I9s2oftNEeSk9JI_CU85gw" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_I9s2ovtNEeSk9JI_CU85gw" name="course">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_I9s2o_tNEeSk9JI_CU85gw" name="Lhs">
+      <nodes xmi:id="_I9s2pPtNEeSk9JI_CU85gw" name="root" outgoing="_I9s2qftNEeSk9JI_CU85gw _I9s2qvtNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_I9s2pftNEeSk9JI_CU85gw" incoming="_I9s2qftNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student"/>
+        <attributes xmi:id="_I9s2pvtNEeSk9JI_CU85gw" value="id">
+          <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_I9s2p_tNEeSk9JI_CU85gw" incoming="_I9s2qvtNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Course"/>
+        <attributes xmi:id="_I9s2qPtNEeSk9JI_CU85gw" value="course">
+          <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Course/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_I9s2qftNEeSk9JI_CU85gw" source="_I9s2pPtNEeSk9JI_CU85gw" target="_I9s2pftNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University/students"/>
+      </edges>
+      <edges xmi:id="_I9s2qvtNEeSk9JI_CU85gw" source="_I9s2pPtNEeSk9JI_CU85gw" target="_I9s2p_tNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University/courses"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_I9s2q_tNEeSk9JI_CU85gw" name="Rhs">
+      <nodes xmi:id="_I9s2rPtNEeSk9JI_CU85gw" name="root" outgoing="_I9s2sftNEeSk9JI_CU85gw _I9s2svtNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University"/>
+      </nodes>
+      <nodes xmi:id="_I9s2rftNEeSk9JI_CU85gw" incoming="_I9s2sftNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student"/>
+        <attributes xmi:id="_I9s2rvtNEeSk9JI_CU85gw" value="id">
+          <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_I9s2r_tNEeSk9JI_CU85gw" incoming="_I9s2svtNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Course"/>
+        <attributes xmi:id="_I9s2sPtNEeSk9JI_CU85gw" value="course">
+          <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//Course/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_I9s2sftNEeSk9JI_CU85gw" source="_I9s2rPtNEeSk9JI_CU85gw" target="_I9s2rftNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University/students"/>
+      </edges>
+      <edges xmi:id="_I9s2svtNEeSk9JI_CU85gw" source="_I9s2rPtNEeSk9JI_CU85gw" target="_I9s2r_tNEeSk9JI_CU85gw">
+        <type href="../../at.ac.tuwien.big.momot.examples.university/model/university.ecore#//University/courses"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_I9s2tPtNEeSk9JI_CU85gw" origin="_I9s2pPtNEeSk9JI_CU85gw" image="_I9s2rPtNEeSk9JI_CU85gw"/>
+    <mappings xmi:id="_I9s2tftNEeSk9JI_CU85gw" origin="_I9s2pftNEeSk9JI_CU85gw" image="_I9s2rftNEeSk9JI_CU85gw"/>
+    <mappings xmi:id="_I9s2tvtNEeSk9JI_CU85gw" origin="_I9s2p_tNEeSk9JI_CU85gw" image="_I9s2r_tNEeSk9JI_CU85gw"/>
+  </units>
+</henshin:Module>

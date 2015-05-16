@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uni:University
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:uni="http://www.big.tuwien.ac.at/ame/university"
+    xsi:schemaLocation="http://www.big.tuwien.ac.at/ame/university university_multiplicityLower.ecore"
+    name="TU Wien">
+  <courses id="1"
+      student="//@students.0 //@students.2 //@students.3 //@students.6 //@students.7"
+      name="ME"/>
+  <courses id="2"
+      student="//@students.3 //@students.4 //@students.5 //@students.7"
+      name="AME"/>
+  <courses id="3"
+      student="//@students.0"
+      name="WE"/>
+  <students
+      name="Charles Xavier"
+      course="1 3"/>
+  <students
+      name="Storm"/>
+  <students
+      name="Hulk"
+      course="1"/>
+  <students
+      name="Wolverine"
+      course="1 2"/>
+  <students
+      name="Hawkeye"
+      course="2"/>
+  <students
+      name="Mystique"
+      course="2"/>
+  <students
+      name="Rogue"
+      course="1"/>
+  <students
+      name="Beast"
+      course="1 2"/>
+</uni:University>

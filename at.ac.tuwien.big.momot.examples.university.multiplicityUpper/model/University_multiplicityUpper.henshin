@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_n2hh8PtuEeSk9JI_CU85gw">
+  <imports href="University_multiplicityUpper.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_xIQzEPtuEeSk9JI_CU85gw" name="deleteStudentFromCourse">
+    <parameters xmi:id="_0sJwkPtuEeSk9JI_CU85gw" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_0sJwkftuEeSk9JI_CU85gw" name="cId">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_xITPUPtuEeSk9JI_CU85gw" name="Lhs">
+      <nodes xmi:id="_2qRqIPtuEeSk9JI_CU85gw" outgoing="_67K3kPtuEeSk9JI_CU85gw">
+        <type href="University_multiplicityUpper.ecore#//Student"/>
+        <attributes xmi:id="_40b0kPtuEeSk9JI_CU85gw" value="id">
+          <type href="University_multiplicityUpper.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_3clQ0PtuEeSk9JI_CU85gw" incoming="_67K3kPtuEeSk9JI_CU85gw">
+        <type href="University_multiplicityUpper.ecore#//Course"/>
+        <attributes xmi:id="_5Y8P0PtuEeSk9JI_CU85gw" value="cId">
+          <type href="University_multiplicityUpper.ecore#//Course/id"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_67K3kPtuEeSk9JI_CU85gw" source="_2qRqIPtuEeSk9JI_CU85gw" target="_3clQ0PtuEeSk9JI_CU85gw">
+        <type href="University_multiplicityUpper.ecore#//Student/course"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_xITPUftuEeSk9JI_CU85gw" name="Rhs">
+      <nodes xmi:id="_2qSRMPtuEeSk9JI_CU85gw">
+        <type href="University_multiplicityUpper.ecore#//Student"/>
+        <attributes xmi:id="_40b0kftuEeSk9JI_CU85gw" value="id">
+          <type href="University_multiplicityUpper.ecore#//Student/id"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_3clQ0ftuEeSk9JI_CU85gw">
+        <type href="University_multiplicityUpper.ecore#//Course"/>
+        <attributes xmi:id="_5Y8P0ftuEeSk9JI_CU85gw" value="cId">
+          <type href="University_multiplicityUpper.ecore#//Course/id"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2qSRMftuEeSk9JI_CU85gw" origin="_2qRqIPtuEeSk9JI_CU85gw" image="_2qSRMPtuEeSk9JI_CU85gw"/>
+    <mappings xmi:id="_3clQ0vtuEeSk9JI_CU85gw" origin="_3clQ0PtuEeSk9JI_CU85gw" image="_3clQ0ftuEeSk9JI_CU85gw"/>
+  </units>
+</henshin:Module>
