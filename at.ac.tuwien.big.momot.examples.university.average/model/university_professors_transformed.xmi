@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<university:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:university="www.tuwien.com" xsi:schemaLocation="www.tuwien.com university.ecore" name="TUWIEN">
+  <professors name="Q" courses="A"/>
+  <professors name="W" courses="S"/>
+  <courses name="A" professor="//@professors.0" courseCertificates="//@certificates.0 //@certificates.1"/>
+  <courses name="S" professor="//@professors.1" courseCertificates="//@certificates.2"/>
+  <courses name="D"/>
+  <students MNR="0" studentCertificates="//@certificates.0"/>
+  <students MNR="1" studentCertificates="//@certificates.1 //@certificates.2"/>
+  <certificates note="1" student="//@students.0" course="A"/>
+  <certificates note="5" student="//@students.1" course="A"/>
+  <certificates note="1" student="//@students.1" course="S"/>
+</university:University>
