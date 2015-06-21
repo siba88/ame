@@ -14,7 +14,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_ZkPxZPD1EeSn8a0p7_xHow"/>
         </children>
         <element xmi:type="henshin:Node" href="university_key.henshin#_ZkMuEPD1EeSn8a0p7_xHow"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkPKUfD1EeSn8a0p7_xHow" x="48" y="89" width="87" height="64"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZkPKUfD1EeSn8a0p7_xHow" x="14" y="11" width="87" height="64"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_arz2YPD1EeSn8a0p7_xHow" type="3001" fontName="Ubuntu">
         <children xmi:type="notation:DecorationNode" xmi:id="_ar0dcPD1EeSn8a0p7_xHow" type="5002"/>
@@ -28,7 +28,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_ar0ddPD1EeSn8a0p7_xHow"/>
         </children>
         <element xmi:type="henshin:Node" href="university_key.henshin#_arxaIPD1EeSn8a0p7_xHow"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_arz2YfD1EeSn8a0p7_xHow" x="304" y="67" width="126" height="61"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_arz2YfD1EeSn8a0p7_xHow" x="306" y="14" width="126" height="61"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_esL7kPD1EeSn8a0p7_xHow" type="3001" fontName="Ubuntu">
         <children xmi:type="notation:DecorationNode" xmi:id="_esMioPD1EeSn8a0p7_xHow" type="5002"/>
@@ -42,7 +42,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_esMipPD1EeSn8a0p7_xHow"/>
         </children>
         <element xmi:type="henshin:Node" href="university_key.henshin#_esIRMPD1EeSn8a0p7_xHow"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esL7kfD1EeSn8a0p7_xHow" x="37" y="254" width="110" height="70"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esL7kfD1EeSn8a0p7_xHow" x="14" y="211" width="110" height="70"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_Oqu0sPD2EeSn8a0p7_xHow" type="3001" fontName="Ubuntu">
         <children xmi:type="notation:DecorationNode" xmi:id="_Oqu0svD2EeSn8a0p7_xHow" type="5002"/>
@@ -52,20 +52,20 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_Oqu0tvD2EeSn8a0p7_xHow"/>
         </children>
         <element xmi:type="henshin:Node" href="university_key.henshin#_OqrKUPD2EeSn8a0p7_xHow"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oqu0sfD2EeSn8a0p7_xHow" x="361" y="262" width="130" height="73"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oqu0sfD2EeSn8a0p7_xHow" x="302" y="209" width="130" height="73"/>
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="university_key.henshin#_VTGFQPD1EeSn8a0p7_xHow"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VTHTYfD1EeSn8a0p7_xHow" x="83" y="173" width="644" height="436"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VTHTYfD1EeSn8a0p7_xHow" x="105" y="121" width="455" height="327"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_OEtL8vD1EeSn8a0p7_xHow"/>
   <element xmi:type="henshin:Module" href="university_key.henshin#_OEtL8PD1EeSn8a0p7_xHow"/>
   <edges xmi:type="notation:Connector" xmi:id="_hFfVQPD1EeSn8a0p7_xHow" type="4001" source="_ZkPKUPD1EeSn8a0p7_xHow" target="_arz2YPD1EeSn8a0p7_xHow">
     <children xmi:type="notation:DecorationNode" xmi:id="_hFf8UPD1EeSn8a0p7_xHow" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_hFf8UfD1EeSn8a0p7_xHow" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hFf8UfD1EeSn8a0p7_xHow" x="2" y="13"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_hFf8UvD1EeSn8a0p7_xHow" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_hFf8U_D1EeSn8a0p7_xHow" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hFf8U_D1EeSn8a0p7_xHow" x="1" y="29"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_hFfVQfD1EeSn8a0p7_xHow" fontName="Ubuntu"/>
     <element xmi:type="henshin:Edge" href="university_key.henshin#_hFeHIPD1EeSn8a0p7_xHow"/>
@@ -75,23 +75,23 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_hoHhMPD1EeSn8a0p7_xHow" type="4001" source="_ZkPKUPD1EeSn8a0p7_xHow" target="_esL7kPD1EeSn8a0p7_xHow">
     <children xmi:type="notation:DecorationNode" xmi:id="_hoIIQPD1EeSn8a0p7_xHow" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_hoIIQfD1EeSn8a0p7_xHow" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hoIIQfD1EeSn8a0p7_xHow" x="11" y="-25"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_hoIIQvD1EeSn8a0p7_xHow" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_hoIIQ_D1EeSn8a0p7_xHow" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hoIIQ_D1EeSn8a0p7_xHow" x="-1" y="-25"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_hoHhMfD1EeSn8a0p7_xHow" fontName="Ubuntu"/>
     <element xmi:type="henshin:Edge" href="university_key.henshin#_hoGTEPD1EeSn8a0p7_xHow"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hoHhMvD1EeSn8a0p7_xHow" points="[3, 1, -173, -93]$[156, 103, -20, 9]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hoLyoPD1EeSn8a0p7_xHow" id="(0.9655172413793104,0.65625)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hoHhMvD1EeSn8a0p7_xHow" points="[-9, 9, 9, -188]$[-9, 143, 9, -54]$[-9, 145, 9, -52]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hoLyoPD1EeSn8a0p7_xHow" id="(0.4367816091954023,0.859375)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hoLyofD1EeSn8a0p7_xHow" id="(0.18181818181818182,0.7428571428571429)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Q-ni4PD2EeSn8a0p7_xHow" type="4001" source="_ZkPKUPD1EeSn8a0p7_xHow" target="_Oqu0sPD2EeSn8a0p7_xHow">
     <children xmi:type="notation:DecorationNode" xmi:id="_Q-oJ8PD2EeSn8a0p7_xHow" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q-oJ8fD2EeSn8a0p7_xHow" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q-oJ8fD2EeSn8a0p7_xHow" x="-13" y="22"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Q-oJ8vD2EeSn8a0p7_xHow" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q-oJ8_D2EeSn8a0p7_xHow" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q-oJ8_D2EeSn8a0p7_xHow" x="1" y="29"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Q-ni4fD2EeSn8a0p7_xHow" fontName="Ubuntu"/>
     <element xmi:type="henshin:Edge" href="university_key.henshin#_Q-ltsPD2EeSn8a0p7_xHow"/>
@@ -101,10 +101,10 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_ZELUwPD2EeSn8a0p7_xHow" type="4001" source="_Oqu0sPD2EeSn8a0p7_xHow" target="_arz2YPD1EeSn8a0p7_xHow">
     <children xmi:type="notation:DecorationNode" xmi:id="_ZEL70PD2EeSn8a0p7_xHow" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEL70fD2EeSn8a0p7_xHow" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEL70fD2EeSn8a0p7_xHow" x="5" y="28"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_ZEL70vD2EeSn8a0p7_xHow" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEL70_D2EeSn8a0p7_xHow" y="60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEL70_D2EeSn8a0p7_xHow" x="21" y="28"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_ZELUwfD2EeSn8a0p7_xHow" fontName="Ubuntu"/>
     <element xmi:type="henshin:Edge" href="university_key.henshin#_ZEKGoPD2EeSn8a0p7_xHow"/>

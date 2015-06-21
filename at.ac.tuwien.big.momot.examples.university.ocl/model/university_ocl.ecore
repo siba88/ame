@@ -9,8 +9,12 @@
   </eAnnotations>
   <eClassifiers xsi:type="ecore:EClass" name="University">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="students" lowerBound="1"
-        upperBound="-1" eType="#//Student" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="students" upperBound="-1"
+        eType="#//Student" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="professors" upperBound="-1"
+        eType="#//Professor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courses" upperBound="-1"
+        eType="#//Course" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Student">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
@@ -22,5 +26,29 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         iD="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="mnr" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="course" upperBound="-1"
+        eType="#//Course" eOpposite="#//Course/students"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Course">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="professor" eType="#//Professor"
+        eOpposite="#//Professor/courses"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="students" lowerBound="5"
+        upperBound="30" eType="#//Student" eOpposite="#//Student/course"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Professor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courses" upperBound="-1"
+        eType="#//Course" eOpposite="#//Course/professor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Student">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courses" upperBound="-1"
+        eType="#//Professor.1" eOpposite="#//Professor.1/students"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Professor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="students" upperBound="-1"
+        eType="#//Student.1" eOpposite="#//Student.1/courses"/>
   </eClassifiers>
 </ecore:EPackage>

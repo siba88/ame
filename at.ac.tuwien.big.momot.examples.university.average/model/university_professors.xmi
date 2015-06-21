@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<university:University xmi:version="2.0" 
-xmlns:xmi="http://www.omg.org/XMI" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:university="www.tuwien.com" 
-xsi:schemaLocation="www.tuwien.com university.ecore" 
-name="TUWIEN">
-  
-  
-  <professors name="P1" courses="C1"/>
-  <professors name="P2" courses="C1 C2"/>
-  <professors name="P3" courses="C3"/>
-  
-  <courses name="C1" professor="//@professors.0 //@professors.1" courseCertificates="//@certificates.0 //@certificates.1" gradeAverage="0.0"/>
-  <courses name="C2" professor="//@professors.1" courseCertificates="" gradeAverage="0.0"/>
-  <courses name="C3" professor="//@professors.2" courseCertificates="" gradeAverage="0.0"/>
-  
-  
-  <students MNR="0" studentCertificates="//@certificates.0"/>
-  <students MNR="1" studentCertificates="//@certificates.1"/>
-  
-  
-  <certificates note="1" student="//@students.0" course="//@courses.0"/>
-  <certificates note="5" student="//@students.1" course="//@courses.0"/>
+<university:University
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:university="www.tuwien.com"
+    xsi:schemaLocation="www.tuwien.com university.ecore"
+    name="TUWIEN">
+  <professors
+      name="P1"/>
+  <professors
+      name="P2"
+      courses="C1 C2"/>
+  <professors
+      name="P3"
+      courses="C3"/>
+  <courses name="C1"
+      professor="//@professors.1"
+      courseCertificates="//@certificates.0 //@certificates.1"/>
+  <courses name="C2"
+      professor="//@professors.1"/>
+  <courses name="C3"
+      professor="//@professors.2"/>
+  <students
+      MNR="1"
+      studentCertificates="//@certificates.0"
+      semester="4"/>
+  <students
+      MNR="2"
+      studentCertificates="//@certificates.1"
+      semester="8"/>
+  <certificates
+      student="//@students.0"
+      course="C1"
+      note="1"/>
+  <certificates
+      student="//@students.1"
+      course="C1"
+      note="5"/>
 </university:University>

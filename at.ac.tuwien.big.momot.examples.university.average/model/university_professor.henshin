@@ -95,159 +95,129 @@
     <mappings xmi:id="_uoBWMfu2EeSNHbOQfeI_Qg" origin="_sPFI4Pu2EeSNHbOQfeI_Qg" image="_uoBWMPu2EeSNHbOQfeI_Qg"/>
     <mappings xmi:id="_B9HGIfu4EeSNHbOQfeI_Qg" origin="_B9F4APu4EeSNHbOQfeI_Qg" image="_B9HGIPu4EeSNHbOQfeI_Qg"/>
   </units>
-  <units xsi:type="henshin:Rule" xmi:id="_hbd94PvNEeSL4bgiEayd-w" name="calculateAverageGrade">
-    <parameters xmi:id="_0FlMQPvQEeSL4bgiEayd-w" name="note">
+  <units xsi:type="henshin:Rule" xmi:id="_tLWR5RgbEeWYbt0xlku6Hg" name="countStudents">
+    <parameters xmi:id="_7TfNABgiEeWYbt0xlku6Hg" name="s">
+      <type xsi:type="ecore:EClass" href="university.ecore#//Student"/>
+    </parameters>
+    <parameters xmi:id="_tLWR5hgbEeWYbt0xlku6Hg" name="n">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
-    <parameters xmi:id="_m4oLUPvnEeSyzuK3GMrO-w" name="gradeaverage">
-      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
-    </parameters>
-    <lhs xmi:id="_hbuckPvNEeSL4bgiEayd-w" name="Lhs">
-      <nodes xmi:id="_vE6PEPvNEeSL4bgiEayd-w">
-        <type href="university.ecore#//Course"/>
-        <attributes xmi:id="_0loFoPvNEeSL4bgiEayd-w" value="gradeaverage">
-          <type href="university.ecore#//Course/gradeAverage"/>
+    <lhs xmi:id="_tLWR6BgbEeWYbt0xlku6Hg" name="Lhs">
+      <nodes xmi:id="_HxIdoBgcEeWYbt0xlku6Hg">
+        <type href="university.ecore#//University"/>
+        <attributes xmi:id="_o-E78BgiEeWYbt0xlku6Hg" value="n">
+          <type href="university.ecore#//University/numberOfStudents"/>
         </attributes>
       </nodes>
     </lhs>
-    <rhs xmi:id="_hbvDoPvNEeSL4bgiEayd-w" name="Rhs">
-      <nodes xmi:id="_vE6PEfvNEeSL4bgiEayd-w">
-        <type href="university.ecore#//Course"/>
-        <attributes xmi:id="_0loFofvNEeSL4bgiEayd-w" value="Aggregations.AVG(note)">
-          <type href="university.ecore#//Course/gradeAverage"/>
+    <rhs xmi:id="_tLWR7RgbEeWYbt0xlku6Hg" name="Rhs">
+      <nodes xmi:id="_HxIdoRgcEeWYbt0xlku6Hg">
+        <type href="university.ecore#//University"/>
+        <attributes xmi:id="_o-E78RgiEeWYbt0xlku6Hg" value="Aggregations.COUNT(s)">
+          <type href="university.ecore#//University/numberOfStudents"/>
         </attributes>
       </nodes>
     </rhs>
-    <mappings xmi:id="_vE62IPvNEeSL4bgiEayd-w" origin="_vE6PEPvNEeSL4bgiEayd-w" image="_vE6PEfvNEeSL4bgiEayd-w"/>
-    <multiRules xmi:id="_G4A34PvOEeSL4bgiEayd-w">
-      <parameters xmi:id="_0Fo2ofvQEeSL4bgiEayd-w" name="note">
+    <mappings xmi:id="_HxIdohgcEeWYbt0xlku6Hg" origin="_HxIdoBgcEeWYbt0xlku6Hg" image="_HxIdoRgcEeWYbt0xlku6Hg"/>
+    <multiRules xmi:id="_PEq8sBgcEeWYbt0xlku6Hg">
+      <parameters xmi:id="_PExDUBgcEeWYbt0xlku6Hg" name="s">
+        <type xsi:type="ecore:EClass" href="university.ecore#//Student"/>
+      </parameters>
+      <parameters xmi:id="_PExDURgcEeWYbt0xlku6Hg" name="n">
         <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
       </parameters>
-      <parameters xmi:id="_0Fo2ovvQEeSL4bgiEayd-w" name="gradeaverage">
-        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
-      </parameters>
-      <lhs xmi:id="_G4CGAPvOEeSL4bgiEayd-w" name="Lhs">
-        <nodes xmi:id="_G4EiQPvOEeSL4bgiEayd-w" outgoing="_DAvrYPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Course"/>
-          <attributes xmi:id="_G4EiQvvOEeSL4bgiEayd-w" value="0.0">
-            <type href="university.ecore#//Course/gradeAverage"/>
-          </attributes>
+      <lhs xmi:id="_PEq8sRgcEeWYbt0xlku6Hg" name="Lhs">
+        <nodes xmi:id="_PEq8uBgcEeWYbt0xlku6Hg" outgoing="_Ki1JMBgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University"/>
         </nodes>
-        <nodes xmi:id="_A7M7MPvOEeSL4bgiEayd-w" incoming="_DAvrYPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Certificate"/>
-          <attributes xmi:id="_vZKLUPvOEeSL4bgiEayd-w" value="note">
-            <type href="university.ecore#//Certificate/note"/>
-          </attributes>
+        <nodes xmi:id="_JenTIBgcEeWYbt0xlku6Hg" name="s" incoming="_Ki1JMBgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//Student"/>
         </nodes>
-        <edges xmi:id="_DAvrYPvOEeSL4bgiEayd-w" source="_G4EiQPvOEeSL4bgiEayd-w" target="_A7M7MPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Course/courseCertificates"/>
+        <edges xmi:id="_Ki1JMBgcEeWYbt0xlku6Hg" source="_PEq8uBgcEeWYbt0xlku6Hg" target="_JenTIBgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University/students"/>
         </edges>
       </lhs>
-      <rhs xmi:id="_G4CtEPvOEeSL4bgiEayd-w" name="Rhs">
-        <nodes xmi:id="_G4DUIPvOEeSL4bgiEayd-w" outgoing="_DAwScPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Course"/>
-          <attributes xmi:id="_G4DUIvvOEeSL4bgiEayd-w" value="0.0">
-            <type href="university.ecore#//Course/gradeAverage"/>
-          </attributes>
+      <rhs xmi:id="_PEq8shgcEeWYbt0xlku6Hg" name="Rhs">
+        <nodes xmi:id="_PEq8sxgcEeWYbt0xlku6Hg" outgoing="_Ki1JMRgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University"/>
         </nodes>
-        <nodes xmi:id="_A7NiQPvOEeSL4bgiEayd-w" incoming="_DAwScPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Certificate"/>
-          <attributes xmi:id="_vZKLUfvOEeSL4bgiEayd-w" value="note">
-            <type href="university.ecore#//Certificate/note"/>
-          </attributes>
+        <nodes xmi:id="_JenTIRgcEeWYbt0xlku6Hg" name="s" incoming="_Ki1JMRgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//Student"/>
         </nodes>
-        <edges xmi:id="_DAwScPvOEeSL4bgiEayd-w" source="_G4DUIPvOEeSL4bgiEayd-w" target="_A7NiQPvOEeSL4bgiEayd-w">
-          <type href="university.ecore#//Course/courseCertificates"/>
+        <edges xmi:id="_Ki1JMRgcEeWYbt0xlku6Hg" source="_PEq8sxgcEeWYbt0xlku6Hg" target="_JenTIRgcEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University/students"/>
         </edges>
       </rhs>
-      <mappings xmi:id="_G4FJU_vOEeSL4bgiEayd-w" origin="_G4EiQPvOEeSL4bgiEayd-w" image="_G4DUIPvOEeSL4bgiEayd-w"/>
-      <mappings xmi:id="_A7NiQfvOEeSL4bgiEayd-w" origin="_A7M7MPvOEeSL4bgiEayd-w" image="_A7NiQPvOEeSL4bgiEayd-w"/>
-      <multiMappings xmi:id="_G4DUI_vOEeSL4bgiEayd-w" origin="_vE6PEfvNEeSL4bgiEayd-w" image="_G4DUIPvOEeSL4bgiEayd-w"/>
-      <multiMappings xmi:id="_G4EiQ_vOEeSL4bgiEayd-w" origin="_vE6PEPvNEeSL4bgiEayd-w" image="_G4EiQPvOEeSL4bgiEayd-w"/>
+      <mappings xmi:id="_PEq8vRgcEeWYbt0xlku6Hg" origin="_PEq8uBgcEeWYbt0xlku6Hg" image="_PEq8sxgcEeWYbt0xlku6Hg"/>
+      <mappings xmi:id="_JenTIhgcEeWYbt0xlku6Hg" origin="_JenTIBgcEeWYbt0xlku6Hg" image="_JenTIRgcEeWYbt0xlku6Hg"/>
+      <multiMappings xmi:id="_PEq8tBgcEeWYbt0xlku6Hg" origin="_HxIdoRgcEeWYbt0xlku6Hg" image="_PEq8sxgcEeWYbt0xlku6Hg"/>
+      <multiMappings xmi:id="_PEq8uRgcEeWYbt0xlku6Hg" origin="_HxIdoBgcEeWYbt0xlku6Hg" image="_PEq8uBgcEeWYbt0xlku6Hg"/>
     </multiRules>
     <javaImports>org.eclipse.emf.henshin.interpreter.util.Aggregations</javaImports>
   </units>
-  <units xsi:type="henshin:Rule" xmi:id="_4fniEPvlEeSyzuK3GMrO-w" name="countAttendants">
-    <parameters xmi:id="_4fniEfvlEeSyzuK3GMrO-w" name="cert">
-      <type xsi:type="ecore:EClass" href="university.ecore#//Certificate"/>
-    </parameters>
-    <parameters xmi:id="_Sk63APvmEeSyzuK3GMrO-w" name="nrold">
+  <units xsi:type="henshin:Rule" xmi:id="_Ney8UBgiEeWYbt0xlku6Hg" name="calculateAverageDuration">
+    <parameters xmi:id="_Ney8URgiEeWYbt0xlku6Hg" name="n">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
-    <parameters xmi:id="_4fniEvvlEeSyzuK3GMrO-w" name="coursenamea">
-      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <parameters xmi:id="_Ney8UhgiEeWYbt0xlku6Hg" name="averageLength">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
-    <lhs xmi:id="_4fniE_vlEeSyzuK3GMrO-w" name="Lhs">
-      <nodes xmi:id="_4fniFPvlEeSyzuK3GMrO-w">
-        <type href="university.ecore#//Course"/>
-        <attributes xmi:id="_4fniFfvlEeSyzuK3GMrO-w" value="coursenamea">
-          <type href="university.ecore#//Course/name"/>
-        </attributes>
-        <attributes xmi:id="_4fniFvvlEeSyzuK3GMrO-w" value="nrold">
-          <type href="university.ecore#//Course/numberOfAttendants"/>
+    <lhs xmi:id="_Ney8UxgiEeWYbt0xlku6Hg" name="Lhs">
+      <nodes xmi:id="_Ney8VBgiEeWYbt0xlku6Hg">
+        <type href="university.ecore#//University"/>
+        <attributes xmi:id="_Ney8VRgiEeWYbt0xlku6Hg" value="averageLength">
+          <type href="university.ecore#//University/averageLength"/>
         </attributes>
       </nodes>
     </lhs>
-    <rhs xmi:id="_4fniF_vlEeSyzuK3GMrO-w" name="Rhs">
-      <nodes xmi:id="_4fniGPvlEeSyzuK3GMrO-w">
-        <type href="university.ecore#//Course"/>
-        <attributes xmi:id="_4fniGfvlEeSyzuK3GMrO-w" value="coursenamea">
-          <type href="university.ecore#//Course/name"/>
-        </attributes>
-        <attributes xmi:id="_4fniGvvlEeSyzuK3GMrO-w" value="Aggregations.COUNT(cert)">
-          <type href="university.ecore#//Course/numberOfAttendants"/>
+    <rhs xmi:id="_Ney8VhgiEeWYbt0xlku6Hg" name="Rhs">
+      <nodes xmi:id="_Ney8VxgiEeWYbt0xlku6Hg">
+        <type href="university.ecore#//University"/>
+        <attributes xmi:id="_Ney8WBgiEeWYbt0xlku6Hg" value="Aggregations.AVG(n)">
+          <type href="university.ecore#//University/averageLength"/>
         </attributes>
       </nodes>
     </rhs>
-    <mappings xmi:id="_4fniG_vlEeSyzuK3GMrO-w" origin="_4fniFPvlEeSyzuK3GMrO-w" image="_4fniGPvlEeSyzuK3GMrO-w"/>
-    <multiRules xmi:id="_RSe3YPvpEeSyzuK3GMrO-w">
-      <parameters xmi:id="_RSnaQPvpEeSyzuK3GMrO-w" name="cert">
-        <type xsi:type="ecore:EClass" href="university.ecore#//Certificate"/>
-      </parameters>
-      <parameters xmi:id="_RSnaQfvpEeSyzuK3GMrO-w" name="nrold">
+    <mappings xmi:id="_Ney8WRgiEeWYbt0xlku6Hg" origin="_Ney8VBgiEeWYbt0xlku6Hg" image="_Ney8VxgiEeWYbt0xlku6Hg"/>
+    <multiRules xmi:id="_Ney8WhgiEeWYbt0xlku6Hg">
+      <parameters xmi:id="_Ney8WxgiEeWYbt0xlku6Hg" name="n">
         <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
       </parameters>
-      <parameters xmi:id="_RSnaQvvpEeSyzuK3GMrO-w" name="coursenamea">
-        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <parameters xmi:id="_Ney8XBgiEeWYbt0xlku6Hg" name="averageLength">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
       </parameters>
-      <lhs xmi:id="_RSgskPvpEeSyzuK3GMrO-w" name="Lhs">
-        <nodes xmi:id="_RSh6sPvpEeSyzuK3GMrO-w" outgoing="_R60pwPvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Course"/>
-          <attributes xmi:id="_RSh6sfvpEeSyzuK3GMrO-w" value="coursenamea">
-            <type href="university.ecore#//Course/name"/>
-          </attributes>
-          <attributes xmi:id="_RSh6svvpEeSyzuK3GMrO-w" value="nrold">
-            <type href="university.ecore#//Course/numberOfAttendants"/>
+      <lhs xmi:id="_Ney8XRgiEeWYbt0xlku6Hg" name="Lhs">
+        <nodes xmi:id="_Ney8XhgiEeWYbt0xlku6Hg" outgoing="_Ney8YRgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University"/>
+        </nodes>
+        <nodes xmi:id="_Ney8XxgiEeWYbt0xlku6Hg" incoming="_Ney8YRgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//Student"/>
+          <attributes xmi:id="_Ney8YBgiEeWYbt0xlku6Hg" value="n">
+            <type href="university.ecore#//Student/semester"/>
           </attributes>
         </nodes>
-        <nodes xmi:id="_QO9k4PvpEeSyzuK3GMrO-w" name="cert" incoming="_R60pwPvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Certificate"/>
-        </nodes>
-        <edges xmi:id="_R60pwPvpEeSyzuK3GMrO-w" source="_RSh6sPvpEeSyzuK3GMrO-w" target="_QO9k4PvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Course/courseCertificates"/>
+        <edges xmi:id="_Ney8YRgiEeWYbt0xlku6Hg" source="_Ney8XhgiEeWYbt0xlku6Hg" target="_Ney8XxgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University/students"/>
         </edges>
       </lhs>
-      <rhs xmi:id="_RSgskfvpEeSyzuK3GMrO-w" name="Rhs">
-        <nodes xmi:id="_RShToPvpEeSyzuK3GMrO-w" outgoing="_R60pwfvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Course"/>
-          <attributes xmi:id="_RShTofvpEeSyzuK3GMrO-w" value="coursenamea">
-            <type href="university.ecore#//Course/name"/>
-          </attributes>
-          <attributes xmi:id="_RShTovvpEeSyzuK3GMrO-w" value="Aggregations.COUNT(cert)">
-            <type href="university.ecore#//Course/numberOfAttendants"/>
+      <rhs xmi:id="_Ney8YhgiEeWYbt0xlku6Hg" name="Rhs">
+        <nodes xmi:id="_Ney8YxgiEeWYbt0xlku6Hg" outgoing="_Ney8ZhgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University"/>
+        </nodes>
+        <nodes xmi:id="_Ney8ZBgiEeWYbt0xlku6Hg" incoming="_Ney8ZhgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//Student"/>
+          <attributes xmi:id="_Ney8ZRgiEeWYbt0xlku6Hg" value="n">
+            <type href="university.ecore#//Student/semester"/>
           </attributes>
         </nodes>
-        <nodes xmi:id="_QO-L8PvpEeSyzuK3GMrO-w" name="cert" incoming="_R60pwfvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Certificate"/>
-        </nodes>
-        <edges xmi:id="_R60pwfvpEeSyzuK3GMrO-w" source="_RShToPvpEeSyzuK3GMrO-w" target="_QO-L8PvpEeSyzuK3GMrO-w">
-          <type href="university.ecore#//Course/courseCertificates"/>
+        <edges xmi:id="_Ney8ZhgiEeWYbt0xlku6Hg" source="_Ney8YxgiEeWYbt0xlku6Hg" target="_Ney8ZBgiEeWYbt0xlku6Hg">
+          <type href="university.ecore#//University/students"/>
         </edges>
       </rhs>
-      <mappings xmi:id="_RSh6tPvpEeSyzuK3GMrO-w" origin="_RSh6sPvpEeSyzuK3GMrO-w" image="_RShToPvpEeSyzuK3GMrO-w"/>
-      <mappings xmi:id="_QO-L8fvpEeSyzuK3GMrO-w" origin="_QO9k4PvpEeSyzuK3GMrO-w" image="_QO-L8PvpEeSyzuK3GMrO-w"/>
-      <multiMappings xmi:id="_RShTo_vpEeSyzuK3GMrO-w" origin="_4fniGPvlEeSyzuK3GMrO-w" image="_RShToPvpEeSyzuK3GMrO-w"/>
-      <multiMappings xmi:id="_RSh6s_vpEeSyzuK3GMrO-w" origin="_4fniFPvlEeSyzuK3GMrO-w" image="_RSh6sPvpEeSyzuK3GMrO-w"/>
+      <mappings xmi:id="_Ney8ZxgiEeWYbt0xlku6Hg" origin="_Ney8XhgiEeWYbt0xlku6Hg" image="_Ney8YxgiEeWYbt0xlku6Hg"/>
+      <mappings xmi:id="_Ney8aBgiEeWYbt0xlku6Hg" origin="_Ney8XxgiEeWYbt0xlku6Hg" image="_Ney8ZBgiEeWYbt0xlku6Hg"/>
+      <multiMappings xmi:id="_Ney8aRgiEeWYbt0xlku6Hg" origin="_Ney8VxgiEeWYbt0xlku6Hg" image="_Ney8YxgiEeWYbt0xlku6Hg"/>
+      <multiMappings xmi:id="_Ney8ahgiEeWYbt0xlku6Hg" origin="_Ney8VBgiEeWYbt0xlku6Hg" image="_Ney8XhgiEeWYbt0xlku6Hg"/>
     </multiRules>
     <javaImports>org.eclipse.emf.henshin.interpreter.util.Aggregations</javaImports>
   </units>

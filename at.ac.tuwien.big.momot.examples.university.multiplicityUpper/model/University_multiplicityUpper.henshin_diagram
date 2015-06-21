@@ -36,7 +36,7 @@
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="University_multiplicityUpper.henshin#_xIQzEPtuEeSk9JI_CU85gw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xISBMftuEeSk9JI_CU85gw" x="178" y="149" width="400" height="235"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xISBMftuEeSk9JI_CU85gw" x="178" y="149" width="348" height="235"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_n2hh8vtuEeSk9JI_CU85gw"/>
   <element xmi:type="henshin:Module" href="University_multiplicityUpper.henshin#_n2hh8PtuEeSk9JI_CU85gw"/>

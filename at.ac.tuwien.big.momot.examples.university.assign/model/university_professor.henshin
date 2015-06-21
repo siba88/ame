@@ -23,13 +23,13 @@
       </nodes>
     </lhs>
     <rhs xmi:id="_bUlCgfHlEeSkT5Mo_ocSPw" name="Rhs">
-      <nodes xmi:id="_kokWYPHlEeSkT5Mo_ocSPw" incoming="_LpgbUPHmEeSkT5Mo_ocSPw" outgoing="_Co_dEPHmEeSkT5Mo_ocSPw">
+      <nodes xmi:id="_kokWYPHlEeSkT5Mo_ocSPw" outgoing="_Co_dEPHmEeSkT5Mo_ocSPw">
         <type href="university.ecore#//Professor"/>
         <attributes xmi:id="_mKVEEPHlEeSkT5Mo_ocSPw" value="name">
           <type href="university.ecore#//Professor/name"/>
         </attributes>
       </nodes>
-      <nodes xmi:id="_o0K0IfHlEeSkT5Mo_ocSPw" incoming="_Co_dEPHmEeSkT5Mo_ocSPw" outgoing="_LpgbUPHmEeSkT5Mo_ocSPw">
+      <nodes xmi:id="_o0K0IfHlEeSkT5Mo_ocSPw" incoming="_Co_dEPHmEeSkT5Mo_ocSPw">
         <type href="university.ecore#//Course"/>
         <attributes xmi:id="_rMRT8fHlEeSkT5Mo_ocSPw" value="course">
           <type href="university.ecore#//Course/name"/>
@@ -37,9 +37,6 @@
       </nodes>
       <edges xmi:id="_Co_dEPHmEeSkT5Mo_ocSPw" source="_kokWYPHlEeSkT5Mo_ocSPw" target="_o0K0IfHlEeSkT5Mo_ocSPw">
         <type href="university.ecore#//Professor/courses"/>
-      </edges>
-      <edges xmi:id="_LpgbUPHmEeSkT5Mo_ocSPw" source="_o0K0IfHlEeSkT5Mo_ocSPw" target="_kokWYPHlEeSkT5Mo_ocSPw">
-        <type href="university.ecore#//Course/professors"/>
       </edges>
     </rhs>
     <mappings xmi:id="_kokWYfHlEeSkT5Mo_ocSPw" origin="_kojvUPHlEeSkT5Mo_ocSPw" image="_kokWYPHlEeSkT5Mo_ocSPw"/>

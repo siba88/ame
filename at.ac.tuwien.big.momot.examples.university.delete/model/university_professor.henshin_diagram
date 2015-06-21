@@ -130,7 +130,7 @@
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="university_professor.henshin#_vpV9cPr_EeSBzY_NYk9xOg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vpVWcfr_EeSBzY_NYk9xOg" x="30" y="578" width="484"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vpVWcfr_EeSBzY_NYk9xOg" x="606" y="287" width="484"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_rF3Y8PsEEeSBzY_NYk9xOg" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rF3Y8fsEEeSBzY_NYk9xOg" source="defaultAction">
